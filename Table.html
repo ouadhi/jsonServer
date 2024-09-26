@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execution Status Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #7f8fa6;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3b3b98;
+            color: white;
+        }
+        td {
+            background-color: #f1f2f6;
+        }
+        .strong {
+            color: #e84118;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Execution Status Report</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Status</th>
+            <th>Executed Quantity</th>
+            <th>Executed Price (EUR)</th>
+            <th>Order Type</th>
+            <th>Instrument</th>
+            <th>ISIN</th>
+            <th>Condition</th>
+            <th>Valid Until</th>
+            <th>Received Timestamp</th>
+            <th>Your Reference</th>
+            <th>Our Reference</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>POSTED</td>
+            <td>2,850.00</td>
+            <td>50.8886</td>
+            <td>SELL</td>
+            <td>SPDR Bloomberg 1-3 Year Euro G</td>
+            <td>IE00B6YX5F63</td>
+            <td>Market</td>
+            <td>08/07/2024</td>
+            <td>June 10 2024 14:31:14</td>
+            <td>0000811213G</td>
+            <td>177898</td>
+        </tr>
+        <!-- Additional rows of data can be inserted below -->
+        <tr>
+            <td>POSTED</td>
+            <td>3,500.00</td>
+            <td>52.1234</td>
+            <td>SELL</td>
+            <td>SPDR Bloomberg 1-3 Year Euro G</td>
+            <td>IE00B6YX5F63</td>
+            <td>Market</td>
+            <td>09/07/2024</td>
+            <td>June 11 2024 10:15:12</td>
+            <td>0000811213H</td>
+            <td>177899</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
